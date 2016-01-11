@@ -40,7 +40,7 @@ Webuploader：http://fex.baidu.com/webuploader/
 </div> 
 ```
 ###2、demo
-* [多张图片上传demo](http://192.168.14.97:8080/plugin/imgUpload-ie6)
+* [多张图片上传demo](http://192.168.14.97:8080/acc/plugin/imgUpload-ie6)
 
 ##API
 ###1、API
