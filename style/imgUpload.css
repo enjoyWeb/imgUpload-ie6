@@ -156,18 +156,23 @@
     clip: rect(1px,1px,1px,1px);
 }
 
-.fixed {
+.fixedTip {
 	top: -43px;
 	left: 0;
 	opacity: 0;
 	max-width:100%;
-	position: absolute;
+	position: fixed;
 	width: 100%;
+	_display: none;
 }
-.fixed.show {
+.fixedTip.show {
+	opacity: 1;
 	top: 0;
 	left: 0;
-	opacity: 1;
+	_display: block;
+	_position: absolute;
+	_bottom: auto;
+	_top:expression(eval(document.documentElement.scrollTop));
 	transition: top 300ms;
 	-moz-transition: top 300ms;
 	-webkit-transition: top 300ms;
